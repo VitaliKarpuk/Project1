@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    height: 100vh;
 }
 header{
     width: 100%;
@@ -89,5 +90,65 @@ header{
     height: 200px;
     background-color: gray;
     margin-left: 20%;
-    
 }
+   @media screen and (max-width: 425px) {
+    header{
+        width: 100%;
+        height: 60%;
+    }
+    .content_1{
+        width: 100%;
+        height: 650px;
+    }
+    .content_2{
+        width: 100%;
+        height: 3400px;
+    }
+    .content_1_layout{
+        height: 100%;
+    }
+    .item_1{
+        width: 90%;
+        height: 300px;
+    }
+    .item_2{
+        width: 90%;
+        height: 400px;
+    }
+    .item_3{
+        width: 90%;
+        height: 500px;
+    }
+    .item_4{
+        width: 100%;
+        height: 10px;
+    }
+    .item_5{
+        width: 90%;
+        height: 1300px;
+    }
+    .item_6{
+        width: 90%;
+        height: 600px;
+        margin-right: 0;
+    }
+    .content_3{
+        width: 100%;
+        height: 400px;
+    }
+    .content_4{
+        width: 100%;
+        height: 1630px;
+        display: flex;
+    }
+    .content_4__item{
+        width:100%;
+        height: 1480px;
+        margin: 0 auto;
+    }
+    .content_4__footer{
+        width: 100%;
+        height: 130px;
+        margin: 20px auto 0 auto;
+    }
+   }
