@@ -29,11 +29,10 @@ header p{
     line-height: 17px;
     color: #B3B3B3;
 }
-
 .content_1{
     width: 100%;
     height: 800px;
-    background: url(./img/Rectanglehero.svg) 100% 100% no-repeat;
+    background: url(../img/Rectanglehero.svg) 100% 100% no-repeat;
     background-size: cover;
     margin-bottom: 1%;
     display: flex;
@@ -46,7 +45,7 @@ header p{
     height: 100%;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
 }
 .content_1 h3{
     font-family: Montserrat;
@@ -84,6 +83,8 @@ header p{
     justify-content: center;
     align-items: center;
     border: 1px solid #ffffff;
+    font-weight: 800;
+    font-size: 35px;
 }
 .content_1 a{
     text-decoration: none;
@@ -105,16 +106,14 @@ header p{
 .content_2{
     width: 100%;
     height: 2380px;
-    background-color: darksalmon;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1%;
 }
-.content_1_layout{
+.content_2_layout{
     width: 60%;
     height: 2280px;
-    background-color: darkslateblue;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -124,29 +123,149 @@ header p{
 .item_1{
     width: 38%;
     height: 500px;
-    background-color: chartreuse;
+    background-color: white;
     margin-top: 3%;
+    font-family: Montserrat;
+    color: #37373F;
+}
+.item_1 h3{
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+}
+.item_1 p{
+    font-size: 12px;
+    margin: 0;
+}
+.item_1 p span{
+    font-weight: bold;
+}
+.item_1 ul{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    list-style: none;
+    padding: 0;
+}
+.item_1 ul li img{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+}
+.item_1__stars{
+    border-top: 0.5px solid #C7C7C7;
+    border-bottom: 0.5px solid #C7C7C7;
+    padding: 10px 0;
+}
+.item_1__stars img{
+    margin-right: 10px;
 }
 .item_2{
     width: 48%;
     height: 380px;
-    background-color: darkkhaki;
     margin-top: 3%;
 }
 .item_3{
     width: 100%;
     height: 530px;
-    background-color: fuchsia;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.5px solid #C7C7C7;
+}
+.item_3 h4{
+    order: 1;
+    align-self: flex-start;
+    color: #37373F;
+    margin-left: 20px;
+}
+.item_3 ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    order: 2;
+}
+.item_3 ul li{
+    margin: 5px;
+    list-style: none; 
+}
+.item_3 button{
+    border: none;
+    background-color: #ffffff;
+    padding: 0;
+    order: 3;
+    color: #5286EC;
+}
+.item_3 button span{
+    font-size: 10px;
+    color: #C7C7C7;
 }
 .item_4{
     width: 48%;
     height: 600px;
-    background-color: darkseagreen;
+    font-family: Montserrat;
+    line-height: 24px;
+}
+.item_4 h4{
+    color: #37373F;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.item_4 p{
+    font-size: 13px;
+    color: #37373F;
+    margin: 0;
+}
+.item_4 button{
+    margin-bottom: 10px;
+    border: none;
+    background-color: #ffffff;
+    padding: 0;
+    order: 3;
+    color: #5286EC;
+}
+.item_4 button span{
+    font-size: 10px;
+    color: #C7C7C7;
 }
 .item_5{
     width: 48%;
     height: 600px;
-    background-color: indianred;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.item_5__photo{
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 5px;
+}
+.item_5 h5, p{
+    margin:5px 0;
+}
+.item_5 h5{
+    color: #37373F;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.item_5 p{
+    color: #37373F;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+}
+.item_5 button{
+    border: none;
+    background-color: #ffffff;
+    padding: 0;
+    color: #5286EC;
 }
 .item_6{
     width: 66%;
@@ -192,7 +311,7 @@ header p{
         width: 100%;
         height: 3400px;
     }
-    .content_1_layout{
+    .content_2_layout{
         height: 100%;
     }
     .item_1{
