@@ -208,6 +208,7 @@ header p{
     height: 600px;
     font-family: Montserrat;
     line-height: 24px;
+    border-bottom: 0.5px solid #C7C7C7;
 }
 .item_4 h4{
     color: #37373F;
@@ -239,6 +240,7 @@ header p{
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
+    border-bottom: 0.5px solid #C7C7C7;
 }
 .item_5__photo{
     display: flex;
@@ -270,8 +272,78 @@ header p{
 .item_6{
     width: 66%;
     height: 540px;
-    background-color: yellowgreen;
     margin-right: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.item_6 h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #37373F;
+    padding-left: 20px;
+}
+.item_6__timetable{
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+}
+.item_6__timetable > p{
+    padding-left: 20px;
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px solid #C7C7C7;
+    padding: 10px 0 10px 20px;
+}
+.item_6__timetable > p img{
+    margin-left: 20px;
+    border: 1px solid #C7C7C7;
+    padding: 5px;
+}
+.item_6__timetable > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-bottom: 1px solid #C7C7C7;
+    box-sizing: border-box;
+}
+.item_6__timetable p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #37373F;
+}
+.item_6__timetable span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37373F;
+}
+.item_6__timetable button{
+    background-color: white;
+    border: 1px solid red;
+    width: 130px;
+    height: 40px;
+    color: red;
+}
+.item_6__timetable button:hover{
+    cursor: pointer;
+}
+.item_6__stars{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 26px;
+    color: #37373F;
+    margin-top: 50px;
 }
 .content_3{
     width: 100%;
@@ -281,22 +353,123 @@ header p{
 }
 .content_4{
     width: 100%;
-    height: 1355px;
-    background-color: gold;
     padding-top: 30px;
 }
 .content_4__item{
     width:36%;
-    height: 1100px;
-    background-color: thistle;
     margin-left: 20%;
     margin-bottom: 55px;
+}
+.content_4__item button{
+    border: none;
+    background-color: #ffffff;
+    padding: 0;
+    order: 3;
+    color: #5286EC;
+    text-align: center;
+    order: 10;
+    align-self: center;
+}
+.content_4__item button span{
+    font-size: 10px;
+    color: #C7C7C7;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.content_4__item > p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #37373F;
+    margin: 0 0 30px 10px;
+}
+.content_4__review{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_4__review h5 {
+    width: 100%;
+}
+.content_4__review h5 + p{
+    width: 100%;
+}
+.content_4__review > img{
+    margin: 10px;
+}
+.content_4__review div > img{
+    margin-right: 10px;
+}
+.content_4__review span{
+    font-family: Montserrat;
+    font-size: 10px;
+    line-height: 21px;
+    color: #B3B3B3;
+}
+.content_4__review > div{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #37373F;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #C7C7C7;
 }
 .content_4__footer{
     width: 60%;
     height: 200px;
-    background-color: gray;
     margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B3B3B3;
+}
+.content_4__footer > div{
+    width: 100%;
+}
+.footer_social{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_4__footer > div h3{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 21px;
+}
+.content_4__footer > div h3 span{
+    color: #C94042;
+}
+.content_4__footer button{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.content_4__footer  button span{
+    color: #C7C7C7;
+    margin-left: 10px;
+}
+
+.content_4__footer button:hover{
+    cursor: pointer;
+}
+.footer_cards{
+    background-color: #FAF9F8;
+}
+.footer_cards > div{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
 }
    @media screen and (max-width: 425px) {
     header{
