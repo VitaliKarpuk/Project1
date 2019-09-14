@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    height: 100vh;
+
 }
 header{
     width: 100%;
@@ -351,12 +351,73 @@ header p{
     background-color: darkslategrey;
     margin-bottom: 1%;
 }
+.content_3 > div {
+    width: 330px;
+    height: 504px;
+    display: block;
+    position: relative;
+    top: -580px;
+    left: 220px;
+    float: left;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #37373F;
+}
+
+.content_3__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.content_3__info > div{
+    width: 60px;
+    height: 60px;
+    background-color: #C94042;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.content_3__info img{
+    width: 60px;
+    height: 60px;
+
+}
+.content_3__info button{
+    border: none;
+    background-color: #ffffff;
+    padding: 0;
+    order: 3;
+    color: #5286EC;
+    text-align: center;
+    order: 10;
+    align-self: center;
+}
+.content_3__info button span{
+    font-size: 10px;
+    color: #C7C7C7;
+}
 .content_4{
     width: 100%;
-    padding-top: 30px;
 }
+
 .content_4__item{
-    width:36%;
+    width:70%;
     margin-left: 20%;
     margin-bottom: 55px;
 }
@@ -544,7 +605,6 @@ header p{
     .content_4__item{
         width:100%;
         margin: 0;
-
     }
     .content_4__review {
         justify-content: center;
@@ -558,6 +618,35 @@ header p{
     }
     .footer_cards > div {
         width: 100%;
+    }
+    .content_3__info > div {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        margin-right: 12px;
+    }
+    .content_3__info {
+        margin-bottom: 8px;
+    }
+
+    .content_3__info img {
+        width: 30px;
+        height: 30px;
+    }
+    .content_3__info button {
+        font-size: 8px;
+    }
+    .content_3__info button span {
+        font-size: 5px
+    }
+    .content_3 > div {
+        width: 179px;
+        height: 200px;
+        top: -548px;
+        left: 52px;
+        padding: 10px;
+        font-size: 8px;
+        line-height: 16px;
     }
    }
    @media screen and (max-width: 376px) {
@@ -596,6 +685,15 @@ header p{
     }
     .content_4__footer > div {
         font-size: 10px;
+    }
+   }
+   @media screen and (max-width: 974px) {
+    .item_4 {
+        height: 680px;
+    }
+    .content_4__item {
+        display: flex;
+        flex-direction: column;
     }
    }
   
